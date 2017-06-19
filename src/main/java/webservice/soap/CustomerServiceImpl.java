@@ -11,7 +11,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     static {
         nameById.put(305045678l, "Yael");
-}
+    }
 
     public String getName(long id) {
         String name = nameById.get(id);
