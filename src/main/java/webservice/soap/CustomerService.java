@@ -8,5 +8,5 @@ import javax.jws.WebService;
 public interface CustomerService {
 
     @WebMethod
-    public String getName(@WebParam long id);
+    String getName(@WebParam long id);
 }
